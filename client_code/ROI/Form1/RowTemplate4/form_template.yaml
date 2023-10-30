@@ -65,6 +65,7 @@ components:
     layout_properties: {column: VDMADF}
     data_bindings:
     - {property: text, code: 'self.item[''interest_rate'']', writeback: true}
+    - {property: text, code: 'self.item[''intrest_rate'']', writeback: true}
   - type: FlowPanel
     properties: {}
     name: flow_panel_1
